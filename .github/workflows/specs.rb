@@ -1,5 +1,5 @@
 name: Rails
-on: push
+on: [push, pull-request]
 
 jobs:
   verify:
